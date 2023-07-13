@@ -1,5 +1,8 @@
 package day1;
 
+import lombok.extern.java.Log;
+
+@Log
 public class DupString {
 
 	public static void main(String[] args)

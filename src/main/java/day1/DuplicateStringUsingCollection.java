@@ -1,6 +1,6 @@
 package day1;
 
-public class DeplicateStringUsingCollection {
+public class DuplicateStringUsingCollection {
     public static void main(String[] args) {
 
     }
