@@ -2,22 +2,16 @@ package day1;
 
 public class DupString {
 
-	public static void main(String[] args)
-	{
-		String s=new String("sayani");
-		String s1=new String();
-		for(int i=0; i<s.length(); i++)
-		{
-			for(int j=0; j<s1.length(); i++)
-			{
-				if(s.charAt(i)!=s1.charAt(j))
-				{
-					s1=s1+s.charAt(i);
-				}
+	public static void main(String[] args) {
+		String str = "Sayani";
+		String newstr = " ";
+		for (int i = 0; i < str.length(); i++) {
+
+			char ch = str.charAt(i);
+			if (newstr.indexOf(ch) == -1) {
+				newstr += ch;
 			}
 		}
-		System.out.println(s1);
-
+		System.out.println(newstr);
 	}
-
 }
