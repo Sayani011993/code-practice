@@ -1,6 +1,6 @@
 package day1;
 
-public class DupString {
+public class RemoveDupString {
 
 	public static void main(String[] args) {
 		String str = "Sayani";

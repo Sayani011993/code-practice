@@ -1,2 +1,4 @@
-public class oopsconcpts {
+package oops;
+
+public class Employee {
 }
